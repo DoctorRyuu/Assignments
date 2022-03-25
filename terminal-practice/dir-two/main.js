@@ -1,5 +1,5 @@
-function nanopractice(){
-var input = document.getElementById("input").value
+function nanopractice() {
+	var input = document.getElementById("input").value
 	console.log(input)
 	if (input === "Hello") {
 		alert("Hello World!");

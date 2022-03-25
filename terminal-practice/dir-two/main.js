@@ -13,5 +13,6 @@ var input = document.getElementById("input").value
 		alert("You could say Hello. Or at least Hey.");
 		console.log("Rude")
 	}
+	event.preventDefault();
 }
 document.getElementById("form").addEventListener("submit", nanopractice)
